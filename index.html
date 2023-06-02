@@ -1,204 +1,795 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- basic -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- mobile metas -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<!-- site metas -->
-<title>Findnaukri</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">	
-<!-- bootstrap css -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<!-- style css -->
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<!-- Responsive-->
-<link rel="stylesheet" href="css/responsive.css">
-<!-- fevicon -->
-<link rel="icon" href="images/fevicon.png" type="image/gif" />
-<!-- Scrollbar Custom CSS -->
-<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-<!-- Tweaks for older IEs-->
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<!-- owl stylesheets --> 
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesoeet" href="css/owl.theme.default.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-
-</head>
-<body>
-	<!-- header section start-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="logo" href="#"><img src="images/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <head>
+    <!-- basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- mobile meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site meta -->
+    <title>Urban Oasis</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- favicon -->
+    <link rel="icon" href="images/logo-icon.svg" type="image/svg" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <!-- Tweaks for older IEs-->
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen"
+    />
+    <style>
+      @font-face {
+        font-family: "Inter";
+        src: url("fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
+        /* src: url("CustomFont.woff") format("woff"),
+url("CustomFont.otf") format("opentype"),
+url("CustomFont.svg#filename") format("svg"); */
+      }
+    </style>
+  </head>
+  <body style="font-family: inter">
+    <!-- header section start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="logo" href="#"><img src="images/logo.svg" /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
-        </button>
+      </button>
+      <div>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                   <a class="nav-link" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="search jobs.html">SEARCH JOBS</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="recurments.html">RECRUITERS</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="companies.html">COMPANIES</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="services.html">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="#">MORE</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rent</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Buy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sell</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="companies.html">Manage Property</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Resources</a>
+            </li>
+          </ul>
+          <div>
+            <button type="button" class="btn btn-outline-primary">Login</button>
+            <button type="button" class="btn btn-primary">Sign up</button>
+          </div>
         </div>
-         <div class="login_text"><a href="login.html">LOGIN HERE</a></div>
+      </div>
     </nav>
-	<!-- header section start-->
-	<!-- banner section start-->
-	<div class="banner_section layout_padding">
-		<div class="container">
-			<h1 class="best_taital">Best Naukri Search here</h1>
-			<div class="box_main">
-			    <input type="" class="email_bt" placeholder="Search Job" name="">
-				<button class="subscribe_bt"><a href="#">Subscribe</a></button>
-		    </div>
-		    <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
-		    <div class="bt_main">
-		    	<div class="discover_bt"><a href="#">Discover More</a></div>
-		    </div>
-		</div>
-	</div>
-	<!-- banner section end-->
-	<!-- marketing section start-->
-	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="job_section">
-					    <h1 class="jobs_text">Marketing jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="image_1 padding_0"><img src="images/img-1.png"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- marketing section end-->
-	<!-- Industrial section start-->
-	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="image_1 padding_0"><img src="images/img-2.png"></div>
-				</div>
-				<div class="col-md-6">
-					<div class="job_section_2">
-					    <h1 class="jobs_text">Industrial jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Industrial section end-->
-	<!-- Corporate section start-->
-	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="job_section">
-					    <h1 class="jobs_text">Corporate jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
-					</div>
-				</div>
-				<div class="col-md-6 padding_0">
-					<div class="image_1"><img src="images/img-3.png"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Corporate section end-->
-	<!-- Government section start-->
-	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 padding_0">
-					<div class="image_1"><img src="images/img-4.png"></div>
-				</div>
-				<div class="col-md-6">
-					<div class="job_section_2">
-					    <h1 class="jobs_text">Government jobs</h1>
-					    <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
-					    <div class="apply_bt"><a href="#">Apply now</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Government section end-->
-	<!-- footer section start-->
-	<div class="footer_section layout_padding">
-		<div class="container">
-			<h1 class="subscribr_text">Subscribe Now</h1>
-			<p class="lorem_text">There are many variations of passages of Lorem Ipsum available, but the majority have </p>
-			<div class="box_main_2">
-			    <textarea type="" class="email_bt_2" placeholder="Enter Your Email" name=""></textarea>
-		    </div>
-		    <button class="subscribe_bt_2"><a href="#">Subscribe</a></button>
-		</div>
-	</div>
-	<!-- footer section end-->
-	<!-- copyright section start-->
-	<div class="copyright_section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<p class="copyright_text">Copyright 2020 All Right Reserved By.<a href="https://html.design"> Free  html Templates</a></p>
-				</div>
-				<div class="col-md-6">
-					<p class="cookies_text">Cookies, Privacy and Terms</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- copyright section end-->
 
+    <div class="container">
+      <div class="container-fluid">
+        <div class="row" style="">
+          <div class="col-md-6">
+            <div style="margin-top: 40px">
+              <h1 class="sec-heading">
+                Buy, rent, or sell your property easily
+              </h1>
+              <p class="sec-text" style="margin-right: 109px">
+                A great platform to buy, sell or even rent your properties
+                without any commissions.
+              </p>
+            </div>
+            <div style="display: flex; gap: 40px">
+              <div
+                style="
+                  margin-top: 26px;
+                  border-left: 4px solid #7065f03d;
+                  padding-left: 20px;
+                "
+              >
+                <h1 class="color-prp">50k+</h1>
+                <p style="margin: 0">Renters</p>
+              </div>
+              <div
+                style="
+                  margin-top: 26px;
+                  border-left: 4px solid #7065f03d;
+                  padding-left: 20px;
+                "
+              >
+                <h1 class="color-prp">10k+</h1>
+                <p style="margin: 0">Properties</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="background-image: url(images/map.svg)">
+            <div
+              class="card"
+              style="max-width: 260px; margin: 25px 0 55px -109px"
+            >
+              <img
+                class="card-img-top"
+                src="images/img3.png"
+                alt="Card image cap"
+              />
+              <div class="card-body" style="position: relative">
+                <div class="popular-tag">Popular</div>
+                <p style="margin: 0">
+                  <span class="color-prp prop-price">30,000</span>
+                  <span class="color-prp">rs</span>
+                  <span>/month</span>
+                </p>
+                <h5 class="card-title">Opel Villa</h5>
+                <p class="card-text prop-location">Gulberg Greens, Islamabad</p>
+                <!-- <div>
+                        
+                      </div> -->
+              </div>
+              <div class="card-footer">
+                <div style="display: flex; justify-content: space-between">
+                  <div>
+                    <img src="images/icon_bed.svg" />
+                    <span>4</span>
+                  </div>
+                  <div>
+                    <img src="images/icon_bath.svg" />
+                    <span>2</span>
+                  </div>
+                  <div>
+                    <img src="images/icon_size.svg" />
+                    <span>6 X 7.5 m<sup>2</sup></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="image_1 padding_0"><img src="images/map.svg" /></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Javascript files-->
+    <div class="container" style="display: none">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#">Rent</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#">Buy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#">Sell</a>
+        </li>
+      </ul>
+      <div>
+        <div>
+          <label>Location</label>
+          <input />
+        </div>
+      </div>
+    </div>
+
+    <div class="layout_padding container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image_1 padding_0">
+              <img src="images/img2.png" style="border-radius: 16px" />
+              <div
+                style="
+                  border: 2px solid #a0a0a0;
+                  border-radius: 13px;
+                  width: 80%;
+                  z-index: 10;
+                  position: absolute;
+                  background: white;
+                  left: 10%;
+                  right: 10%;
+                  top: 92%;
+                "
+              >
+                <img
+                  src="images/logo-icon-round.svg"
+                  style="position: absolute; top: -31px; right: 27px"
+                />
+                <p
+                  style="
+                    margin-bottom: 0;
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    color: black;
+                  "
+                >
+                  Find the best deal
+                </p>
+                <p style="margin-top: 0">Browse thousands of properties</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div>
+              <h1 class="sec-heading">
+                We make it easy for tenants and landlords.
+              </h1>
+              <p class="sec-text">
+                Whether it’s selling your current home, getting financing, or
+                buying a new home, we make it easy and efficient. The best part?
+                you’ll save a bunch of money and time with our services.
+              </p>
+              <button class="btn btn-primary" style="margin-top: 30px">
+                See more <i class="fa fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout_padding container">
+      <div class="container-fluid">
+        <div class="row" style="border-bottom: 2px solid #a0a0a0">
+          <div class="col-md-6">
+            <div>
+              <h1 class="sec-heading">The new way to find your home</h1>
+              <p class="sec-text">
+                Find your dream place to live in with more than 10k+ properties
+                listed.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image_1 padding_0"><img src="images/img.svg" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout_padding">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="stat">
+            <img src="images/icon_percent.svg" style="width: 64px" />
+            <h1 class="stat-val">7.4%</h1>
+            <p>Property Return Rate</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="stat">
+            <img src="images/icon_search.svg" style="width: 64px" />
+            <h1 class="stat-val">3,856</h1>
+            <p>Property in Sale & Rent</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="stat">
+            <img src="images/icon_price.svg" style="width: 64px" />
+            <h1 class="stat-val">2,540</h1>
+            <p>Daily Completed Transactions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layout_padding container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div>
+              <h1 class="sec-heading">Based on your location</h1>
+              <p class="sec-text">
+                Some of our picked properties near your location.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6"
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+            "
+          >
+            <button
+              type="button"
+              class="btn btn-primary"
+              style="background: #7065f0"
+            >
+              Browse more properties
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center my-3">
+      <div class="row mx-auto my-auto">
+        <div
+          id="recipeCarousel"
+          class="carousel slide w-100"
+          data-ride="carousel"
+        >
+          <div
+            class="carousel-inner"
+            role="listbox"
+            style="width: 90%; margin: auto"
+          >
+            <div class="carousel-item active">
+              <div class="col-sm-4">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/img3.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body" style="position: relative">
+                    <div class="popular-tag">Popular</div>
+                    <p style="margin: 0">
+                      <span class="color-prp prop-price">30,000</span>
+                      <span class="color-prp">rs</span>
+                      <span>/month</span>
+                    </p>
+                    <h5 class="card-title">Opel Villa</h5>
+                    <p class="card-text prop-location">
+                      Gulberg Greens, Islamabad
+                    </p>
+                    <!-- <div>
+                            
+                          </div> -->
+                  </div>
+                  <div class="card-footer">
+                    <div style="display: flex; justify-content: space-between">
+                      <div>
+                        <img src="images/icon_bed.svg" />
+                        <span>4</span>
+                      </div>
+                      <div>
+                        <img src="images/icon_bath.svg" />
+                        <span>2</span>
+                      </div>
+                      <div>
+                        <img src="images/icon_size.svg" />
+                        <span>6 X 7.5 m<sup>2</sup></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-sm-4">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/img4.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body" style="position: relative">
+                    <div class="popular-tag">Popular</div>
+                    <p style="margin: 0">
+                      <span class="color-prp prop-price">20,000</span>
+                      <span class="color-prp">rs</span>
+                      <span>/month</span>
+                    </p>
+                    <h5 class="card-title">Floral Villa</h5>
+                    <p class="card-text prop-location">SBR, Ahmadabad</p>
+                    <!-- <div>
+                            
+                          </div> -->
+                  </div>
+                  <div class="card-footer">
+                    <div style="display: flex; justify-content: space-between">
+                      <div>
+                        <img src="images/icon_bed.svg" />
+                        <span>4</span>
+                      </div>
+                      <div>
+                        <img src="images/icon_bath.svg" />
+                        <span>2</span>
+                      </div>
+                      <div>
+                        <img src="images/icon_size.svg" />
+                        <span>6 X 7.5 m<sup>2</sup></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-sm-4">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/img5.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body" style="position: relative">
+                    <div class="popular-tag">Popular</div>
+                    <p style="margin: 0">
+                      <span class="color-prp prop-price">31,000</span>
+                      <span class="color-prp">rs</span>
+                      <span>/month</span>
+                    </p>
+                    <h5 class="card-title">Dev Villa</h5>
+                    <p class="card-text prop-location">DHA, Rawalpindi</p>
+                    <!-- <div>
+                            
+                          </div> -->
+                  </div>
+                  <div class="card-footer">
+                    <div style="display: flex; justify-content: space-between">
+                      <div>
+                        <img src="images/icon_bed.svg" />
+                        <span>4</span>
+                      </div>
+                      <div>
+                        <img src="images/icon_bath.svg" />
+                        <span>2</span>
+                      </div>
+                      <div>
+                        <img src="images/icon_size.svg" />
+                        <span>6 X 7.5 m<sup>2</sup></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev w-auto"
+            href="#recipeCarousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next w-auto"
+            href="#recipeCarousel"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout_padding">
+      <div class="row">
+        <div class="container" style="text-align: center">
+          <h1
+            class="display-4"
+            style="
+              font-style: normal;
+              font-weight: 600;
+              font-size: 48px;
+              line-height: 58px;
+            "
+          >
+            Testimonials
+          </h1>
+          <p
+            class="lead"
+            style="
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px;
+              max-width: 470px;
+              margin: auto;
+            "
+          >
+            See what our property managers, landlords, and tenants have to say
+          </p>
+          <p
+            style="
+              font-style: normal;
+              font-weight: 400;
+              font-size: 1.5rem;
+              line-height: 29px;
+              letter-spacing: -0.02em;
+              color: black;
+              max-width: 875px;
+              margin: auto;
+              margin-top: 40px;
+            "
+          >
+            “Urban oasis is the platform I go to on almost a daily basis for 2nd
+            home and vacation condo shopping, or to just look at dream homes in
+            new areas. Thanks for fun home shopping and comparactive analyzing,
+            Urban oasis!”
+          </p>
+          <h3
+            style="
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 300;
+              line-height: 29px;
+              margin-top: 30px;
+            "
+          >
+            <strong style="font-size: 1.3rem; font-weight: 700"
+              >Rahul Mehta,</strong
+            >
+            Renter
+          </h3>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              gap: 25px;
+              margin-top: 30px;
+            "
+          >
+            <img
+              src="images/img_user1.png"
+              style="width: 64px; border-radius: 50%"
+            />
+            <img
+              src="images/img_user2.png"
+              style="width: 64px; border-radius: 50%"
+            />
+            <img
+              src="images/img_user3.png"
+              style="width: 64px; border-radius: 50%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_section layout_padding">
+      <div class="container" style="text-align: center">
+        <h1 class="subscribr_text">Are you a landlord?</h1>
+        <p style="color: white">
+          Discover ways to increase your home’s value and get listed. No spam
+        </p>
+        <div
+          class="box_main_2"
+          style="position: relative; left: 0; right: 0; width: fit-content"
+        >
+          <textarea
+            class="email_bt_2"
+            placeholder="Enter your email address"
+            style="resize: none"
+          ></textarea>
+          <button
+            class="subscribe_bt_2"
+            style="
+              top: 35px;
+              background: #7065f0;
+              position: absolute;
+              right: 6px;
+            "
+          >
+            <a href="#">Submit</a>
+          </button>
+        </div>
+        <p style="color: white">
+          Join 10,000+ other landlords in our urban oasis community.
+        </p>
+      </div>
+    </div>
+
+    <div class="layout_padding container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="images/logo.svg" />
+        </div>
+        <div class="col-md-9">
+          <div class="row links-row"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="copyright_section"
+      style="padding: 20px 0; border-top: 1px solid #ededed"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="copyright_text" style="margin: 0">
+              ©2023 Urban Oasis. All rights reserved
+            </p>
+          </div>
+          <div
+            class="col-md-6"
+            style="
+              display: flex;
+              justify-content: flex-end;
+              gap: 10px;
+              align-items: center;
+            "
+          >
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin-square"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/html" id="temp-footerLinkGroup">
+      <div class="col-md-4" style="margin-top: 5px;">
+        <h2 class="footer-link-heading">Sell A Home</h2>
+        <div class="links"></div>
+      </div>
+    </script>
+    <script type="text/html" id="temp-footerLink">
+      <a class="footer-link" href="#"></a>
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <!-- javascript --> 
-      <script src="js/owl.carousel.js"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-      <script>
-      $(document).ready(function(){
-      $(".fancybox").fancybox({
-         openEffect: "none",
-         closeEffect: "none"
-         });
-         </script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript -->
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".fancybox").fancybox({
+          openEffect: "none",
+          closeEffect: "none",
+        });
+        var $row = $(".links-row");
+        Links.forEach(function (group) {
+          var $group = $($("#temp-footerLinkGroup").html());
+          $group.find(".footer-link-heading").text(group.title);
+          group.links.forEach(function (link) {
+            var $link = $($("#temp-footerLink").html());
+            $link.text(link.text);
+            $group.find(".links").append($link);
+          });
+          $row.append($group);
+        });
+      });
 
+      $("#recipeCarousel").carousel({
+        interval: 10000,
+      });
 
-     
-</body>
+      $(".carousel .carousel-item").each(function () {
+        var minPerSlide = 3;
+        var next = $(this).next();
+        if (!next.length) {
+          next = $(this).siblings(":first");
+        }
+        next.children(":first-child").clone().appendTo($(this));
+
+        for (var i = 0; i < minPerSlide; i++) {
+          next = next.next();
+          if (!next.length) {
+            next = $(this).siblings(":first");
+          }
+
+          next.children(":first-child").clone().appendTo($(this));
+        }
+      });
+      var Links = [
+        {
+          title: "Sell A Home",
+          links: [
+            {
+              text: "Request an offer",
+            },
+            {
+              text: "Pricing",
+            },
+            {
+              text: "Reviews",
+            },
+            {
+              text: "Stories",
+            },
+          ],
+        },
+        {
+          title: "Buy Rent and Sell",
+          links: [
+            {
+              text: "Buy and Sell Properties",
+            },
+            {
+              text: "Rent home",
+            },
+            {
+              text: "Builder Trade-up",
+            },
+          ],
+        },
+        {
+          title: "About",
+          links: [
+            {
+              text: "Company",
+            },
+            {
+              text: "How It Works",
+            },
+            {
+              text: "Contact",
+            },
+            {
+              text: "Investor",
+            },
+          ],
+        },
+        {
+          title: "Buy a Home",
+          links: [
+            {
+              text: "Buy",
+            },
+            {
+              text: "Finance",
+            },
+          ],
+        },
+        {
+          title: "Terms & Privacy",
+          links: [
+            {
+              text: "Trust & Safety",
+            },
+            {
+              text: "Terms of Service",
+            },
+            {
+              text: "Privacy Policy",
+            },
+          ],
+        },
+        {
+          title: "Resources",
+          links: [
+            {
+              text: "Blog",
+            },
+            {
+              text: "Guides",
+            },
+            {
+              text: "FAQ",
+            },
+            {
+              text: "Help Center",
+            },
+          ],
+        },
+      ];
+    </script>
+  </body>
 </html>
